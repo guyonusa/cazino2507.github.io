@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #303030;
+}
+.wrap {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+header {
+    color: #303030;
+    text-align: center;
+    background-color: #ffba00;
+    font-family: "Open Sans";   
+}
+header h2 {
+    padding: 20px 0px;
+}
+.wrap-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.static-block1 {
+    width: 255px;
+    height: 448px;
+    border: 2px solid #ffba00;
+}
+.static-block2 {
+    margin-top: 75px;
+    width: 255px;
+    height: 448px;
+    border: 2px solid #ffba00;
+}
+.name-block1 {
+    background-color: #ffba0025;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.name-block1 {
+    padding: 19px ;
+}
+.discript-block1 {
+    height: 92px;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.text-block1 {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.text-block2 {
+    padding-right: 15px;
+    padding-top: 20px;
+    text-align: right;
+}
+.name-d {
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+.player-d {
+    color: #5ffc00;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 18px;
+}
+.date-d {
+    color: #939393;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 16px;
+}
+.win-d {
+    color: #ffba00;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.about-casino {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.info-text {
+    margin-left: 30px;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.href-casino a {
+    background-color:#ffba00;
+    text-decoration: none;
+    color: #303030;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 21px;
+    padding: 12px 75px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.href-casino a:hover {
+    background-color:white;
+
+}
+.href-casino {
+    margin-top: 40px;
+    text-align: center;
+}
+.info-block2 {
+    margin-top: 100px;
+}
+.info-block3 {
+    margin-top: 100px;
+}
+.reviews-head {
+    margin-top: 350px;
+    padding: 16px 72px;
+    background-color: #ffba0025;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reviews-descript {
+    margin-top: 27px;
+    width: 255px;
+    height: 433px;
+    border: 2px solid #ffba00;
+}
+.img-rev{
+    border: 2px solid white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+.star-rev {
+    margin-top: 20px;
+    text-align: center;
+}
+.name-rev{
+    margin-top: 20px;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text-rev{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #191919;
+}
+.online {
+    padding-top: 60px;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prava {
+    padding-bottom: 60px;
+    padding-top: 20px;
+    color: white;
+    font-family: "Open Sans"; 
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
